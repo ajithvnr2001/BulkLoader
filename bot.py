@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 from pyrogram.errors import BadRequest
 
 # Configs
-API_HASH = eval(os.environ['API_HASH']) # Api hash
+API_HASH = os.environ['API_HASH'] # Api hash
 APP_ID = int(os.environ['APP_ID']) # Api id/App id
 BOT_TOKEN = os.environ['BOT_TOKEN'] # Bot token
 OWNER_ID = os.environ['OWNER_ID'] # Your telegram id
